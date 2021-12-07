@@ -1,0 +1,1434 @@
+create web directory ./checkpoints\V2CYCLEGAN\web...
+learning rate 0.0002000 -> 0.0002000
+C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\torch\optim\lr_scheduler.py:129: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+(epoch: 1, iters: 100, time: 0.172, data: 7.818) D_A: 0.258 G_A: 0.440 cycle_A: 6.185 idt_A: 0.234 D_B: 0.550 G_B: 0.401 cycle_B: 1.013 idt_B: 3.053
+(epoch: 1, iters: 200, time: 0.187, data: 0.000) D_A: 0.108 G_A: 0.893 cycle_A: 3.380 idt_A: 0.317 D_B: 0.350 G_B: 0.499 cycle_B: 0.753 idt_B: 1.536
+(epoch: 1, iters: 300, time: 0.168, data: 0.016) D_A: 0.214 G_A: 0.590 cycle_A: 2.494 idt_A: 0.421 D_B: 0.228 G_B: 0.770 cycle_B: 0.644 idt_B: 1.136
+(epoch: 1, iters: 400, time: 1.437, data: 0.000) D_A: 0.115 G_A: 0.674 cycle_A: 3.901 idt_A: 0.220 D_B: 0.158 G_B: 0.464 cycle_B: 0.731 idt_B: 1.440
+(epoch: 1, iters: 500, time: 0.187, data: 0.000) D_A: 0.192 G_A: 0.520 cycle_A: 3.872 idt_A: 0.405 D_B: 0.274 G_B: 0.374 cycle_B: 0.836 idt_B: 1.768
+(epoch: 1, iters: 600, time: 0.177, data: 0.000) D_A: 0.073 G_A: 0.604 cycle_A: 2.454 idt_A: 0.169 D_B: 0.144 G_B: 0.593 cycle_B: 0.384 idt_B: 1.177
+(epoch: 1, iters: 700, time: 0.171, data: 0.000) D_A: 0.130 G_A: 1.221 cycle_A: 4.488 idt_A: 0.739 D_B: 0.182 G_B: 0.606 cycle_B: 0.984 idt_B: 1.407
+(epoch: 1, iters: 800, time: 0.406, data: 0.000) D_A: 0.188 G_A: 0.874 cycle_A: 1.602 idt_A: 0.247 D_B: 0.128 G_B: 0.495 cycle_B: 0.457 idt_B: 0.748
+End of epoch 1 / 200 	 Time Taken: 135 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 2, iters: 10, time: 0.172, data: 0.000) D_A: 0.466 G_A: 0.136 cycle_A: 2.164 idt_A: 0.215 D_B: 0.216 G_B: 0.537 cycle_B: 0.442 idt_B: 0.987
+(epoch: 2, iters: 110, time: 0.172, data: 0.000) D_A: 0.077 G_A: 0.509 cycle_A: 2.955 idt_A: 0.329 D_B: 0.144 G_B: 0.310 cycle_B: 0.465 idt_B: 1.318
+(epoch: 2, iters: 210, time: 0.187, data: 0.000) D_A: 0.096 G_A: 0.637 cycle_A: 2.890 idt_A: 0.375 D_B: 0.162 G_B: 0.358 cycle_B: 0.822 idt_B: 1.252
+(epoch: 2, iters: 310, time: 1.238, data: 0.000) D_A: 0.066 G_A: 0.703 cycle_A: 2.857 idt_A: 0.242 D_B: 0.077 G_B: 0.538 cycle_B: 0.453 idt_B: 1.342
+(epoch: 2, iters: 410, time: 0.187, data: 0.000) D_A: 0.030 G_A: 0.925 cycle_A: 3.695 idt_A: 0.240 D_B: 0.132 G_B: 0.446 cycle_B: 0.829 idt_B: 1.868
+(epoch: 2, iters: 510, time: 0.188, data: 0.000) D_A: 0.441 G_A: 0.084 cycle_A: 3.010 idt_A: 0.176 D_B: 0.094 G_B: 0.765 cycle_B: 0.372 idt_B: 1.399
+(epoch: 2, iters: 610, time: 0.172, data: 0.000) D_A: 0.059 G_A: 0.476 cycle_A: 2.403 idt_A: 0.374 D_B: 0.168 G_B: 0.337 cycle_B: 0.655 idt_B: 1.086
+(epoch: 2, iters: 710, time: 0.391, data: 0.000) D_A: 0.034 G_A: 0.912 cycle_A: 3.233 idt_A: 0.382 D_B: 0.118 G_B: 0.615 cycle_B: 0.763 idt_B: 1.390
+(epoch: 2, iters: 810, time: 0.187, data: 0.000) D_A: 0.133 G_A: 0.868 cycle_A: 2.580 idt_A: 0.357 D_B: 0.067 G_B: 0.388 cycle_B: 0.487 idt_B: 1.189
+End of epoch 2 / 200 	 Time Taken: 134 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 3, iters: 20, time: 0.187, data: 0.000) D_A: 0.203 G_A: 0.467 cycle_A: 2.442 idt_A: 0.275 D_B: 0.279 G_B: 0.582 cycle_B: 0.443 idt_B: 0.999
+(epoch: 3, iters: 120, time: 0.182, data: 0.009) D_A: 0.111 G_A: 0.388 cycle_A: 2.741 idt_A: 0.212 D_B: 0.263 G_B: 0.916 cycle_B: 0.453 idt_B: 1.267
+(epoch: 3, iters: 220, time: 1.235, data: 0.000) D_A: 0.141 G_A: 0.854 cycle_A: 3.698 idt_A: 0.321 D_B: 0.195 G_B: 0.367 cycle_B: 0.537 idt_B: 1.964
+(epoch: 3, iters: 320, time: 0.187, data: 0.000) D_A: 0.067 G_A: 0.619 cycle_A: 2.753 idt_A: 0.151 D_B: 0.190 G_B: 0.217 cycle_B: 1.463 idt_B: 1.401
+(epoch: 3, iters: 420, time: 0.207, data: 0.000) D_A: 0.054 G_A: 0.894 cycle_A: 2.670 idt_A: 0.225 D_B: 0.077 G_B: 0.774 cycle_B: 0.463 idt_B: 1.259
+(epoch: 3, iters: 520, time: 0.187, data: 0.001) D_A: 0.050 G_A: 0.336 cycle_A: 3.316 idt_A: 0.146 D_B: 0.225 G_B: 0.293 cycle_B: 0.380 idt_B: 1.342
+(epoch: 3, iters: 620, time: 0.422, data: 0.000) D_A: 0.019 G_A: 0.568 cycle_A: 2.968 idt_A: 0.233 D_B: 0.326 G_B: 0.384 cycle_B: 0.470 idt_B: 1.330
+(epoch: 3, iters: 720, time: 0.187, data: 0.000) D_A: 0.035 G_A: 0.593 cycle_A: 2.170 idt_A: 0.184 D_B: 0.087 G_B: 0.172 cycle_B: 0.504 idt_B: 0.899
+(epoch: 3, iters: 820, time: 0.187, data: 0.000) D_A: 0.050 G_A: 1.039 cycle_A: 2.528 idt_A: 0.111 D_B: 0.058 G_B: 0.486 cycle_B: 0.340 idt_B: 1.162
+End of epoch 3 / 200 	 Time Taken: 135 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 4, iters: 30, time: 0.172, data: 0.000) D_A: 0.134 G_A: 0.600 cycle_A: 2.481 idt_A: 0.144 D_B: 0.110 G_B: 0.929 cycle_B: 0.520 idt_B: 1.165
+(epoch: 4, iters: 130, time: 1.312, data: 0.000) D_A: 0.040 G_A: 0.580 cycle_A: 2.885 idt_A: 0.159 D_B: 0.092 G_B: 0.649 cycle_B: 0.379 idt_B: 1.217
+(epoch: 4, iters: 230, time: 0.203, data: 0.000) D_A: 0.123 G_A: 0.891 cycle_A: 2.390 idt_A: 0.132 D_B: 0.206 G_B: 0.070 cycle_B: 0.316 idt_B: 1.003
+(epoch: 4, iters: 330, time: 0.204, data: 0.000) D_A: 0.096 G_A: 0.686 cycle_A: 2.560 idt_A: 0.178 D_B: 0.248 G_B: 1.296 cycle_B: 0.503 idt_B: 1.583
+(epoch: 4, iters: 430, time: 0.187, data: 0.000) D_A: 0.139 G_A: 0.559 cycle_A: 2.429 idt_A: 0.168 D_B: 0.133 G_B: 0.775 cycle_B: 0.416 idt_B: 1.348
+(epoch: 4, iters: 530, time: 0.422, data: 0.000) D_A: 0.030 G_A: 0.364 cycle_A: 2.147 idt_A: 0.127 D_B: 0.106 G_B: 0.308 cycle_B: 0.290 idt_B: 1.005
+[WinError 10054] An existing connection was forcibly closed by the remote host
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 369, in run_forever
+    dispatcher.read(self.sock.sock, read, check)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 52, in read
+    if not read_callback():
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 335, in read
+    op_code, frame = self.sock.recv_data_frame(True)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 396, in recv_data_frame
+    frame = self.recv_frame()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 435, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_abnf.py", line 337, in recv_frame
+    self.recv_header()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_abnf.py", line 293, in recv_header
+    header = self.recv_strict(2)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_abnf.py", line 372, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 519, in _recv
+    return recv(self.sock, bufsize)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_socket.py", line 113, in recv
+    bytes_ = _recv()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_socket.py", line 90, in _recv
+    return sock.recv(bufsize)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 369, in run_forever
+    dispatcher.read(self.sock.sock, read, check)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 52, in read
+    if not read_callback():
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 335, in read
+    op_code, frame = self.sock.recv_data_frame(True)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 396, in recv_data_frame
+    frame = self.recv_frame()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 435, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_abnf.py", line 337, in recv_frame
+    self.recv_header()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_abnf.py", line 293, in recv_header
+    header = self.recv_strict(2)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_abnf.py", line 372, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 519, in _recv
+    return recv(self.sock, bufsize)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_socket.py", line 113, in recv
+    bytes_ = _recv()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_socket.py", line 90, in _recv
+    return sock.recv(bufsize)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+(epoch: 4, iters: 630, time: 0.187, data: 0.000) D_A: 0.063 G_A: 0.452 cycle_A: 2.930 idt_A: 0.213 D_B: 0.177 G_B: 0.602 cycle_B: 0.398 idt_B: 1.230
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000024B89AEAAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B89AEAAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 708, in _send
+    return self._handle_post(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B89AEAAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception in user code:
+------------------------------------------------------------
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+(epoch: 4, iters: 730, time: 0.187, data: 0.000) D_A: 0.030 G_A: 0.901 cycle_A: 2.247 idt_A: 0.146 D_B: 0.124 G_B: 0.773 cycle_B: 0.337 idt_B: 0.949
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000024BA0232520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA0232520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 708, in _send
+    return self._handle_post(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA0232520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+(epoch: 4, iters: 830, time: 0.187, data: 0.000) D_A: 0.044 G_A: 0.450 cycle_A: 2.103 idt_A: 0.153 D_B: 0.142 G_B: 0.767 cycle_B: 0.375 idt_B: 0.910
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000024BA26C3C40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA26C3C40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 708, in _send
+    return self._handle_post(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024BA26C3C40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+End of epoch 4 / 200 	 Time Taken: 147 sec
+learning rate 0.0002000 -> 0.0002000
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000024B949298E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B949298E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 708, in _send
+    return self._handle_post(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B949298E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception in user code:
+------------------------------------------------------------
+[WinError 10061] No connection could be made because the target machine actively refused it
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 371, in run_forever
+    self._callback(self.on_error, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None)
+Arguments: ()
+on_close() takes 1 positional argument but 3 were given
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 312, in run_forever
+    self.sock.connect(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_core.py", line 249, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 208, in _open_socket
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 407, in _callback
+    callback(self, *args)
+TypeError: on_close() takes 1 positional argument but 3 were given
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1089, in emit
+    self.flush()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\logging\__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 22] Invalid argument
+Call stack:
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 642, in run_socket
+    ws.run_forever(http_proxy_host=self.http_proxy_host,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 375, in run_forever
+    teardown()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 303, in teardown
+    self._callback(self.on_close, close_status_code, close_reason)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\websocket\_app.py", line 412, in _callback
+    self.on_error(self, e)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 619, in on_error
+    logger.error(error)
+Message: TypeError('on_close() takes 1 positional argument but 3 were given')
+Arguments: ()
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000024B925C8430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B925C8430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 708, in _send
+    return self._handle_post(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B925C8430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+(epoch: 5, iters: 40, time: 9.506, data: 0.000) D_A: 0.051 G_A: 0.526 cycle_A: 2.665 idt_A: 0.231 D_B: 0.034 G_B: 0.326 cycle_B: 0.320 idt_B: 1.081
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000024B8DA85D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B8DA85D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 708, in _send
+    return self._handle_post(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B8DA85D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 64, in <module>
+    visualizer.plot_current_losses(epoch, float(epoch_iter) / dataset_size, losses)
+  File "C:\Users\bchat\pytorch-CycleGAN-and-pix2pix\util\visualizer.py", line 225, in plot_current_losses
+    self.vis.line(
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 389, in wrapped_f
+    return f(*args, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 1714, in line
+    return self.scatter(X=linedata, Y=labels, opts=opts, win=win, env=env,
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 389, in wrapped_f
+    return f(*args, **kwargs)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 1640, in scatter
+    return self._send(data_to_send, endpoint=endpoint)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\visdom\__init__.py", line 732, in _send
+    traceback.print_exc()
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+  File "C:\Users\bchat\anaconda3\envs\CS236_PROJECT_TEST\lib\site-packages\wandb\sdk\lib\redirect.py", line 584, in write
+    self._old_write(data)
+OSError: [Errno 22] Invalid argument

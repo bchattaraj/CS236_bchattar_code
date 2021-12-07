@@ -1,0 +1,12 @@
+
+creating web directory ./results/CGANV1_pretrained\test_latest
+processing (0000)-th image... ['datasets/CGANV1/testB\\S190.PNG']
+processing (0005)-th image... ['datasets/CGANV1/testB\\S195.PNG']
+processing (0010)-th image... ['datasets/CGANV1/testB\\S290.PNG']
+processing (0015)-th image... ['datasets/CGANV1/testB\\S295.PNG']
+processing (0020)-th image... ['datasets/CGANV1/testB\\S390.PNG']
+processing (0025)-th image... ['datasets/CGANV1/testB\\S395.PNG']
+processing (0030)-th image... ['datasets/CGANV1/testB\\S490.PNG']
+processing (0035)-th image... ['datasets/CGANV1/testB\\S495.PNG']
+processing (0040)-th image... ['datasets/CGANV1/testB\\S590.PNG']
+processing (0045)-th image... ['datasets/CGANV1/testB\\S595.PNG']

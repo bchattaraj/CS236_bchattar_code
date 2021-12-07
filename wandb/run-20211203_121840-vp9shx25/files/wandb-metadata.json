@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-12-03T18:18:42.511182",
+    "startedAt": "2021-12-03T18:18:40.700688",
+    "docker": null,
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 1,
+    "cpu_count": 128,
+    "cuda": null,
+    "args": [
+        "--dataroot",
+        "./datasets/CGAN_RADAR2RADAR",
+        "--name",
+        "CGANV2_RADAR2RADAR",
+        "--model",
+        "cycle_gan",
+        "--use_wandb"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix",
+        "commit": "00d5574908eb66fe0127b32d7b030001453f21d0"
+    },
+    "email": null,
+    "root": "C:/Users/bchat/pytorch-CycleGAN-and-pix2pix",
+    "host": "DESKTOP-635VHJS",
+    "username": "bchat",
+    "executable": "C:\\Users\\bchat\\anaconda3\\envs\\CS236_PROJECT_TEST\\python.exe"
+}

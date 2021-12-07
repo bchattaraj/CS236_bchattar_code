@@ -1,0 +1,12 @@
+
+creating web directory ./results/CGANV2_RADAR2RADAR_pretrained\test_latest
+processing (0000)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S101.png']
+processing (0005)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S106.png']
+processing (0010)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S201.png']
+processing (0015)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S206.png']
+processing (0020)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S401.png']
+processing (0025)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S406.png']
+processing (0030)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S601.png']
+processing (0035)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S606.png']
+processing (0040)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S801.png']
+processing (0045)-th image... ['datasets/CGAN_RADAR2RADAR/testA\\S806.png']
